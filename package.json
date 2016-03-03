@@ -1,0 +1,24 @@
+{
+  "name": "avs-loader",
+  "version": "0.0.1",
+  "description": "Winamp AVS preset to JSON loader for webpack",
+  "main": "dist/avs-loader.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [
+    "loader",
+    "avs",
+    "winamp",
+    "webpack"
+  ],
+  "files": [
+    "dist/avs-loader.js"
+  ],
+  "author": "Duncan Beevers",
+  "license": "MIT",
+  "devDependencies": {
+    "AVS-File-Decoder": "git+https://github.com/duncanbeevers/AVS-File-Decoder.git@2173ca7ab663c6f071f005d7e6315e6bdcc609a5",
+    "webpack": "^1.12.14"
+  }
+}
